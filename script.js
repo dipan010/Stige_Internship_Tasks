@@ -1,6 +1,7 @@
-let btn = document.getElementById("btn_quote");
-let output = document.getElementById("quote");
-let quote = [
+const btn = document.querySelector(".btn_quote");
+const outputQuote = document.querySelector(".quote");
+const outputAuthor = document.querySelector(".author");
+const quote = [
   {
     text: "The only people who never fail are those who never try.",
     from: "Ilka Chase",
@@ -1243,7 +1244,7 @@ let quote = [
   },
   {
     text: "“People who succeed have momentum. The more they succeed, the more they want to succeed, and the more they find a way to succeed. Similarly, when someone is failing, the tendency is to get on a downward spiral that can even become a self-fulfilling prophecy.",
-    from: "Tony Robbins, motivational speaker",
+    from: "Tony Robbins, motivatio nal speaker",
   },
   {
     text: "“The only limit to our realization of tomorrow will be our doubts of today.",
@@ -1304,6 +1305,8 @@ let quote = [
 ];
 
 btn.addEventListener("click", function () {
-  var random = quotes[Math.floor(Math.random() * quotes.length)];
-  output.innerHTML = random;
+  var random = Math.floor(Math.random() * quote.length);
+  //console.log(random);
+  outputQuote.innerText = quote[random].text;
+  outputAuthor.innerText = quote[random].from;
 });

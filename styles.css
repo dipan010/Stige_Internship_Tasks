@@ -3,24 +3,35 @@ body {
 }
 
 #container {
-    background-color: #0E2421;
-    border: 5px solid #f5e4c3;
     height: 275px;
     width: 750px;
     margin: 0 auto;
     text-align: center;
 }
 
-#btn_quote {
+.btn_quote {
     margin: 50px auto;
     height: 50px;
     width: 250px;
     font-size: 22px;
     background-color: rgb(192, 191, 191);
+    border-radius: 10px;
+    border: none;
 }
 
-#quote {
+.quote {
     margin: 25px auto;
-    font-size: 26px;
+    font-size: 20px;
     color: white
+}
+
+.author {
+    margin: 25px auto;
+    font-size: 10px;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
 }
