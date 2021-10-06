@@ -11,31 +11,31 @@ h1 {
 }
 
 .q {
-    background-image: url("images/w.png");
+    background-image: url("images/crash.png");
 }
 
 .p {
-    background-image: url("images/a.png");
+    background-image: url("images/kick.png");
 }
 
 .z {
-    background-image: url("images/s.png");
+    background-image: url("images/snare.png");
 }
 
 .m {
-    background-image: url("images/d.png");
+    background-image: url("images/tom1.png");
 }
 
 .f {
-    background-image: url("images/j.png");
+    background-image: url("images/tom2.png");
 }
 
 .g {
-    background-image: url("images/k.png");
+    background-image: url("images/tom3.png");
 }
 
 .h {
-    background-image: url("images/l.png");
+    background-image: url("images/tom4.png");
 }
 
 .buttons {
