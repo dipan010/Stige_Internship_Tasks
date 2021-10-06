@@ -1,37 +1,43 @@
 body {
-    background-color: #333232;
-}
-
-#container {
-    height: 275px;
-    width: 750px;
-    margin: 0 auto;
     text-align: center;
+    background-color: #a06060;
 }
 
-.btn_quote {
-    margin: 50px auto;
-    height: 50px;
-    width: 250px;
-    font-size: 22px;
-    background-color: rgb(192, 191, 191);
-    border-radius: 10px;
-    border: none;
+h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: cursive;
+    text-shadow: 3px 0 #DA0463;
 }
 
-.quote {
-    margin: 25px auto;
-    font-size: 20px;
-    color: white
+.q {
+    background-image: url("images/w.png");
 }
 
-.author {
-    margin: 25px auto;
-    font-size: 13px;
-    color: white;
-    background-color: black;
-    width: 100px;
-    height: auto;
-    padding: 10px;
-    border-radius: 10px;
+.p {
+    background-image: url("images/a.png");
+}
+
+.z {
+    background-image: url("images/s.png");
+}
+
+.m {
+    background-image: url("images/d.png");
+}
+
+.f {
+    background-image: url("images/j.png");
+}
+
+.g {
+    background-image: url("images/k.png");
+}
+
+.h {
+    background-image: url("images/l.png");
+}
+
+.buttons {
+    box-shadow: 10% auto;
 }
