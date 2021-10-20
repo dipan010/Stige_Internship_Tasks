@@ -12,3 +12,39 @@ body {
     max-width: 2000px;
     margin: auto;
 }
+
+.footer-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px 56px;
+}
+
+footer {
+    display: block;
+}
+
+a.footer-title {
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.footer-row {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+a.footer-link {
+    color: #757575;
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-decoration: none;
+}
