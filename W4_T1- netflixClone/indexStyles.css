@@ -7,8 +7,12 @@
     .navbar-signin {
         margin-bottom: 100px;
     }
+    .feature-title-browse,
+    .feature-title-home {
+        font-size: 30px;
+    }
     .jumbo-title {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         text-align: center;
     }
     .jumbo-subtitle {
@@ -95,6 +99,19 @@ header {
     margin-bottom: 175px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.feature-wrapper-home {
+    text-align: center;
+}
+
+.feature-title-browse,
+.feature-title-home {
+    color: #fff;
+    max-width: 640px;
+    font-size: 50px;
+    font-weight: 700;
+    margin: auto;
 }
 
 div {
@@ -306,10 +323,11 @@ footer {
     display: block;
 }
 
-.footer-title {
+a.footer-title {
     font-size: 16px;
     color: #757575;
     margin-bottom: 50px;
+    text-decoration: none;
 }
 
 .footer-row {
@@ -321,10 +339,12 @@ footer {
 .footer-column {
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 }
 
-.footer-link {
+a.footer-link {
     color: #757575;
     margin-bottom: 20px;
     font-size: 13px;
+    text-decoration: none;
 }
