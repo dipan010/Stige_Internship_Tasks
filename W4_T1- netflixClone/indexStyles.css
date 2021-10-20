@@ -1,14 +1,330 @@
-* {
-    box-sizing: border-box;
+@media (max-width: 550px) {
+    .header-wrapper-browse,
+    .header-wrapper-home {
+        padding: 15px 20px;
+    }
+    .navbar-home,
+    .navbar-signin {
+        margin-bottom: 100px;
+    }
+    .jumbo-title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .jumbo-subtitle {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .accordion-wrapper {
+        max-width: none;
+        padding: 70px 20px;
+    }
+    .accordion-title {
+        font-size: 25px;
+    }
+    .accordion-header {
+        font-size: 20px;
+    }
+    .accordion-image {
+        width: 16px;
+    }
+    .optform-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .optform-button {
+        height: 50px;
+        font-size: 16px;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+    .footer-wrapper {
+        padding: 70px 15px;
+    }
+    .footer-row {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-html,
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #000;
+@media (max-width: 950px) {
+    .jumbo-item {
+        flex-direction: column;
+    }
+    .jumbo-title {
+        font-size: 2.5rem;
+        text-align: center;
+        padding-right: 0;
+    }
+    .jumbo-subtitle {
+        font-size: 1.25rem;
+        text-align: center;
+        padding-right: 0;
+    }
+    .jumbo-imagewrapper {
+        text-align: center;
+    }
+}
+
+@media (max-width: 740px) {
+    .footer-wrapper {
+        padding: 70px 30px;
+    }
+    .footer-row {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.header-wrapper-home {
+    background: url(home-bg.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 50px;
+}
+
+header {
+    display: block;
+}
+
+.navbar-home,
+.navbar-signin {
+    max-width: 1850px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 175px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.logo {
+    height: 32px;
+    width: 108px;
+}
+
+.signin-button {
+    display: block;
+    background-color: #e50914;
+    width: 84px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
     color: #fff;
-    font-size: 16px;
-    margin: 0;
-    max-width: 2000px;
+    border: 0;
+    font-size: 15px;
+    border-radius: 3px;
+    padding: 8px 17px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.signin-button {
+    text-decoration: none;
+    color: white;
+}
+
+.seperator {
+    border: 4px solid #222;
+}
+
+section {
+    display: block;
+}
+
+.jumbo-item {
+    padding: 70px 5%;
+    max-width: 1100px;
     margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.jumbo-title {
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-bottom: 8px;
+    padding-right: 100px;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.jumbo-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.accordion-wrapper {
+    max-width: 815px;
+    margin: auto;
+    padding: 70px 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-title {
+    font-size: 50px;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+.accordion-header {
+    background: #303030;
+    font-size: 26px;
+    font-weight: 400;
+    padding: .8em 1.2em;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.accordion-image {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+    width: 24px;
+    float: right;
+}
+
+.optform-text {
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.optform-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    padding: 0 20px;
+}
+
+.optform-email {
+    max-width: 450px;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    height: 60px;
+    font-size: 20px;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+a.optform-button {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 60px;
+    background: #e50914;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 32px;
+    font-size: 26px;
+    border: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.optform-button-image {
+    margin-left: 10px;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+    width: 24px;
+}
+
+.footer-wrapper {
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px 56px;
+}
+
+footer {
+    display: block;
+}
+
+.footer-title {
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 50px;
+}
+
+.footer-row {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link {
+    color: #757575;
+    margin-bottom: 20px;
+    font-size: 13px;
 }
