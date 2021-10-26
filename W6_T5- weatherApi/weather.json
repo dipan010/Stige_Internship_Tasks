@@ -1,0 +1,21 @@
+[{
+        "id": 1,
+        "city": "Delhi",
+        "temperature": "30C"
+    },
+    {
+        "id": 2,
+        "city": "Bangalore",
+        "temperature": "31C"
+    },
+    {
+        "id": 3,
+        "city": "Kolkata",
+        "temperature": "45C"
+    },
+    {
+        "id": 4,
+        "city": "Mumbai",
+        "temperature": "40C"
+    }
+]
