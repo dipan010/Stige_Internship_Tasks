@@ -8,7 +8,6 @@ app.get("/", (req, res) => {
         res.end(data);
     });
 });
-
-app.listen(3000, "localhost", () => {
-    console.log(`app listening at http://localhost:3000`);
+app.listen(process.env.PORT, "0.0.0.0", function(err) {
+    console.log("Started listening on %s", app.url);
 });
